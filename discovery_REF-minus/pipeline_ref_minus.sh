@@ -15,8 +15,8 @@
 # if [ ! -s NA12892_S1.bam ];then
 #   wget http://bioinfo.ut.ee/FastGT/downloads/NA12892_S1.bam
 # fi
-sample_path="."
-samples=(NA12891_S1 NA12892_S1)
+sample_path="sequence.fasta"
+samples=(NG_042041.1)
 
 ############# Alternatively define path and ID-s of your own samples: ##########
 # The sample names must be matched with BAM or FASTQ file names
